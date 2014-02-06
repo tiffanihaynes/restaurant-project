@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Garbos Lobster Truck</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/restyle.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -42,26 +43,16 @@
         <div class="row">
           <div class="small-12 columns">
             <div class="callout panel">
-              <p>Daily Locations</p>
-                <ul>
-                  <li>
-                    <a href="#" class="small round button">Monday</a><br/> 
-                  </li>
-                  <li>
-                    <a href="#" class="small round button">Tuesday</a><br/> 
-                  </li>
-                  <li>
-                    <a href="#" class="small round button">Wednesday</a><br/> 
-                  </li>
-                  <li>
-                    <a href="#" class="small round button">Thursday</a><br/> 
-                  </li>
-                  <li>
-                    <a href="#" class="small round button">Friday</a><br/> 
-                  </li>
-                  <li>
-                    <a href="#" class="small round button">Saturday</a><br/> 
-                  </li>
+              <p>Today's Hours: 11am to 3pm</p>
+<div>
+  <div id="findus">
+    <img src="img/images/events.png" />
+  </div>
+  <div id="map">
+    <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6801+N.+Capital+of+Texas+Highway+&amp;aq=&amp;sll=30.307761,-97.753401&amp;sspn=0.665115,1.229095&amp;ie=UTF8&amp;hq=&amp;hnear=6801+N+Capital+of+Texas+Hwy,+Austin,+Texas+78731&amp;t=m&amp;ll=30.36784,-97.78759&amp;spn=0.088865,0.102997&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=6801+N.+Capital+of+Texas+Highway+&amp;aq=&amp;sll=30.307761,-97.753401&amp;sspn=0.665115,1.229095&amp;ie=UTF8&amp;hq=&amp;hnear=6801+N+Capital+of+Texas+Hwy,+Austin,+Texas+78731&amp;t=m&amp;ll=30.36784,-97.78759&amp;spn=0.088865,0.102997&amp;z=12&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+  </div>
+</div>
+</div>
 
 
 
@@ -101,6 +92,16 @@
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
+
+    // select find us / click find us
+      $("#findus").on("click",function(){
+        $("#map").show();
+        $("#findus").hide();
+      })
+      //show map
+      //hide find us
+
+
     </script>
   </body>
 </html>

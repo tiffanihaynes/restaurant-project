@@ -1,0 +1,90 @@
+
+body { 
+    background: white; 
+    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif; 
+    font-size: 14px; 
+    line-height: 1; 
+    color: #777; 
+    position: relative; 
+    -webkit-font-smoothing: antialiased;
+}
+
+h6 {
+display: block;
+font-size: 0.67em;
+-webkit-margin-before: 2.33em;
+-webkit-margin-after: 2.33em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+.find-truck h6 {
+color: #fff!important;
+font-size: 24px!important;
+padding-top: 95px;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-weight: 800!important;
+font-size: 22px;
+margin-top: 32px;
+text-align: center;
+}
+.find-truck {
+ 	/*background-color:rgba(255, 133, 0, 0.9);*/
+background-color: rgba(244, 242, 230, 0.9);
+text-align: center;
+margin: 0 auto;
+padding: 0;
+width: 340px;
+height:340px;
+border-radius: 50%;
+ }
+ .find-truck li.event {
+ 	clear: both;
+	display: inline-block;
+ 	background-color:rgba(255, 143, 0, 0);
+	padding: 0px 0px;
+	text-align: center;
+	width: 32%;
+	border-top:none;
+	color: #fff;
+	min-height: 75px;
+}
+ .find-truck h6 {
+ 	color: #fff!important;
+ 	font-size: 24px!important;
+ 	padding-top: 95px;
+ 	text-transform: uppercase; 
+ 	letter-spacing: 0.1em; 
+ 	font-weight: 800!important; 
+ 	font-size: 22px; 
+ 	margin-top: 32px; 
+ 	text-align: center;
+ }
+  .find-truck .event-info h3 {
+color: #fff;
+font-size: 20px;
+margin-top: 5px;
+font-weight: 600!important;
+  }
+    .find-truck .event-time {
+font-size: 17px;
+  }
+    .find-truck .event-details a {
+    	color: #fff;
+    	font-size: 14px;
+  }
+      .find-truck .event-details a:hover {
+    	color: #999;
+  }
+ .featured-in {
+ 	font-family: "pauline",sans-serif;
+	font-style: italic;
+	font-weight: bold;
+ }
+  .featured-in a {
+ color: #fff;
+  }
+    .featured-in a:hover {
+ color: #999;
+  }

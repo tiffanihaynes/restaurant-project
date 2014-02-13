@@ -6,45 +6,77 @@
     <title>Garbos Lobster Truck</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/restyle.css" />
+  <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Spinnaker' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    
-   
-    <div class="row">
+ <div class="contain-to-grid">
+  <nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#">TOP NAV BAR</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="has-dropdown">
+        <a href="#"></a>
+        <ul class="dropdown">
+          <li><a href="menu.html">MENU</a></li>
+           <li><a href="schedule.html">FIND THE TRUCK</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+           <li><a href="#">CATERING</a></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</nav>
+  </nav>
+</div> 
+
+<div class="row">
       <div class="small-12 columns">
 	        <img src="img/images/logo.png">
 					</div>
       	</div>
-      </div>
-    </div>
-        <!-- Grid Example -->
-
-       <ul data-orbit>
-    <li>
-        <img src="../img/demos/demo1.jpg" />
-        <div class="orbit-caption">...</div>
-    </li>
-    <li>
-        <img src="../img/demos/demo2.jpg" />
-        <div class="orbit-caption">...</div>
-    </li>
-    <li>
-        <img src="../img/demos/demo3.jpg" />
-        <div class="orbit-caption">...</div>
-    </li>
-</ul> <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>MENU</strong></p>
-            </div>
+   <!-- <div class="row">
+      <div class="small-12 columns">
+          <img src="img/images/fresh.jpg">
           </div>
-        </div>
-        <div class="row">
+        </div> -->
+ 
+   <!--  *block grid* -->
+   <!--  <ul class="small-block-grid-2">
+    <li><img src="img/images/fresh.jpg"></li>
+    <li><img src="img/images/fresh.jpg"></li>
+    <li><img src="img/images/fresh.jpg"></li>
+    <li><img src="img/images/fresh.jpg"></li>
+</ul> --> 
+
+     <div class="row">
+      <div class="12 columns"> 
+      <div class="hide-for-small"> 
+        <ul data-orbit>
+    <li>
+        <img src="img/images/delivery.jpg" />
+    </li>
+    <li>
+        <img src="img/images/fresh.jpg"/>
+    </li>
+    <li>
+        <img src="img/images/catering.jpg"/>
+    </li>
+</ul> 
+</div>
+</div>
+
+<div class="row">
           <div class="small-12 columns">
             <div class="callout panel">
-              <p>Today's Hours: 11am to 3pm</p>
-<div>
+<div> 
   <div id="findus">
     <img src="img/images/events.png" />
   </div>
@@ -63,11 +95,16 @@
           </div>
         </div>
         
-        <div class="row">
+         <div class="row">
+          <div class="small-12 columns">
+            <div class="callout panel">
+              <p>HOURS: 11am to 2pm Daily</p>
+            </div>
+          </div>
+
+          <div class="row">
           <div class="small-12 large-12 columns">
             <div class="callout panel">
-              <p>HOURS: open daily 11am - 3pm</p>
-            </div>
           </div>
           <div class="small-12 large-4 columns">
             <div class="callout panel">
@@ -81,12 +118,9 @@
           </div>
           <div class="small-12 large-4 columns">
             <div class="callout panel">
-              <p>PHONE 512.350.9814</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+              <p>PHONE 512.350.9814</p><div class="show-for-small"> <a href="tel:+15123509814">Click to Call Us</a></div>
+</div>
+   </div> 
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
@@ -100,8 +134,35 @@
       })
       //show map
       //hide find us
+ </script>
+   
+    <!-- //google web font script -->
+    <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Spinnaker::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
 
-
-    </script>
+    <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Lobster+Two::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
   </body>
 </html>

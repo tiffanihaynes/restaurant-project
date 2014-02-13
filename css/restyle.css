@@ -1,3 +1,58 @@
+
+/*
+body {
+  background: #d3d3d3 
+  padding: 1.2%;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+}
+ul.pricing-table{
+	font-family:'Lobster Two', cursive;
+	color: ##e74c3c;
+}*/
 #map{
 	display:none;
 }
+div {
+	font-family: 'Spinnaker', sans-serif;
+	color: #2980b9;
+}
+.pricing-table {
+  border: solid 1px #dddddd;
+  margin-left: 0;
+  margin-bottom: 1.25rem; }
+  .pricing-table * {
+    list-style: none;
+    line-height: 1; }
+  .pricing-table .title {
+    padding: 0.9375rem 1.25rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Spinnaker', sans-serif;
+	color: #e74c3c;}
+  .pricing-table .price {
+    background-color: #f6f6f6;
+    padding: 0.9375rem 1.25rem;
+    text-align: center;
+    color: #333333;
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  .pricing-table .description {
+    background-color: white;
+    padding: 0.9375rem;
+    text-align: left;
+    color: #e74c3c;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 2;
+    border-bottom: dotted 1px #dddddd; }
+  .pricing-table .bullet-item {
+    background-color: white;
+    padding: 0.9375rem;
+    text-align: left;
+    color: #333333;
+    font-size: 0.875rem;
+    font-weight: normal;
+    border-bottom: dotted 1px #dddddd; }
